@@ -1,5 +1,5 @@
 import javascript
 
-from DataFlow::SourceNode plugin
+from DataFlow::Node plugin
 where plugin = jquery().getAPropertyRead("fn").getAPropertySource()
 select plugin
